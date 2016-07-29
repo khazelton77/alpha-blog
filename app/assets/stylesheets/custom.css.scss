@@ -3,6 +3,14 @@ $navbar-default-bg: #08088A;
 @import "bootstrap-sprockets";
 @import "bootstrap";
 
+#navlinks a {
+	color: #fff;	
+}
+
+#navlinks a:hover {
+	color: #aaa;
+}
+
 #logo {
 	float: left;
 	font-size: 1.7em;
@@ -16,6 +24,8 @@ $navbar-default-bg: #08088A;
 	color: #fff;
 	text-decoration: none;
 }
+
+
 
 .center {
 	text-align: center;
